@@ -32,4 +32,8 @@
   .imagebox:hover .imagebox-desc {
     padding-bottom: 10%;
   }
+
+  .img-list {
+    background: white !important;
+  }
   
