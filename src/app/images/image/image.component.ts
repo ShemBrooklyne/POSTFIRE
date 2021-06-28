@@ -35,7 +35,7 @@ export class ImageComponent implements OnInit {
       this.selectedImage = event.target.files[0];
     }
     else {
-      this.imgSrc = '/src/assets/img/image_placeholder.jpg';
+      this.imgSrc = 'https://shacknews-ugc.s3.amazonaws.com/user/9647/article/2021-03/feature_template.jpg?versionId=nddKZddYOhg2ylBtIjyrfNPxR7LuedFw';
       this.selectedImage = null;
     }
   }
@@ -68,7 +68,7 @@ export class ImageComponent implements OnInit {
       imageUrl: '',
       author: ''
     });
-    this.imgSrc = '/src/assets/img/image_placeholder.jpg';
+    this.imgSrc = 'https://shacknews-ugc.s3.amazonaws.com/user/9647/article/2021-03/feature_template.jpg?versionId=nddKZddYOhg2ylBtIjyrfNPxR7LuedFw';
     this.selectedImage = null;
     this.isSubmitted = false;
   }
